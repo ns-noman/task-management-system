@@ -60,7 +60,6 @@
   <li><strong>Frontend:</strong> HTML, CSS, Bootstrap</li>
   <li><strong>Scripting:</strong> JavaScript, jQuery, AJAX</li>
   <li><strong>Database:</strong> MySQL</li>
-  <li><strong>Authentication:</strong> Laravel Sanctum</li>
 </ul>
 
 <hr />
