@@ -1,66 +1,143 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+  <div class="container">
+    <h1 class="mb-4">🎯 Task & Training Management System</h1>
+    <p>
+      A powerful Laravel-based system designed to manage organizational tasks, track training programs,
+      and evaluate employee or trainee performance. This system helps streamline internal operations,
+      training schedules, task dependencies, expense tracking, and more.
+    </p>
 
-## About Laravel
+    <hr />
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+    <h2>🌟 Key Features</h2>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    <h4>✅ Task Management</h4>
+    <ul>
+      <li>Create, assign, and monitor tasks</li>
+      <li>Define task types and sub-details</li>
+      <li>Handle dependencies between task items</li>
+      <li>Track progress and status</li>
+    </ul>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+    <h4>👨‍🏫 Training & Evaluation</h4>
+    <ul>
+      <li>Manage courses, batches, trainers, and trainees</li>
+      <li>Enrollment tracking and scheduling</li>
+      <li>Evaluation and feedback collection</li>
+      <li>Training history records</li>
+    </ul>
 
-## Learning Laravel
+    <h4>🧑‍💼 HR & Staff</h4>
+    <ul>
+      <li>Department & designation setup</li>
+      <li>User roles and attendance logging</li>
+      <li>Admin and user management</li>
+    </ul>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    <h4>💰 Expense Tracking</h4>
+    <ul>
+      <li>Expense head/category structure</li>
+      <li>Record training and task-related expenses</li>
+      <li>Currency support for international deployment</li>
+    </ul>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+    <h4>🌐 Multilingual Support</h4>
+    <ul>
+      <li>Dynamic system info with translations</li>
+      <li>Country and currency settings</li>
+    </ul>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+    <h4>🔐 Authentication & Access Control</h4>
+    <ul>
+      <li>Role-based permissions</li>
+      <li>Custom menu privileges</li>
+      <li>Laravel Sanctum personal access tokens</li>
+    </ul>
 
-## Laravel Sponsors
+    <hr />
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+    <h2>🛠️ Tech Stack</h2>
+    <ul>
+      <li><strong>Backend:</strong> <a href="https://laravel.com" target="_blank">Laravel</a></li>
+      <li><strong>Frontend:</strong> HTML, CSS, <a href="https://getbootstrap.com" target="_blank">Bootstrap</a></li>
+      <li><strong>Scripting:</strong> JavaScript, <a href="https://jquery.com" target="_blank">jQuery</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX" target="_blank">AJAX</a></li>
+      <li><strong>Database:</strong> <a href="https://www.mysql.com" target="_blank">MySQL</a></li>
+      <li><strong>Authentication:</strong> Laravel Sanctum</li>
+    </ul>
 
-### Premium Partners
+    <hr />
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+    <h2>🚀 Getting Started</h2>
 
-## Contributing
+    <h5>1️⃣ Clone the Repository</h5>
+    <pre><code>git clone https://github.com/ns-noman/task-training-management.git
+cd task-training-management</code></pre>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+    <h5>2️⃣ Install Dependencies</h5>
+    <pre><code>composer install
+npm install &amp;&amp; npm run dev</code></pre>
 
-## Code of Conduct
+    <h5>3️⃣ Environment Setup</h5>
+    <pre><code>cp .env.example .env
+php artisan key:generate</code></pre>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+    <p>Update your <code>.env</code> file:</p>
+    <pre><code>DB_DATABASE=your_database
+DB_USERNAME=your_username
+DB_PASSWORD=your_password</code></pre>
 
-## Security Vulnerabilities
+    <h5>4️⃣ Migrate the Database</h5>
+    <pre><code>php artisan migrate</code></pre>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    <h5>5️⃣ Start the Server</h5>
+    <pre><code>php artisan serve</code></pre>
 
-## License
+    <hr />
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    <h2>📁 Database Structure (Highlighted Tables)</h2>
+    <table class="table table-bordered">
+      <thead class="table-light">
+        <tr>
+          <th>Category</th>
+          <th>Tables</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Task Management</td>
+          <td>tasks, task_details, task_details_dependencies, task_types, task_type_details</td>
+        </tr>
+        <tr>
+          <td>Training</td>
+          <td>courses, batches, trainees, trainers, enrolles, schedules, evaluations, evaluation_details</td>
+        </tr>
+        <tr>
+          <td>HR & Admin</td>
+          <td>users, admins, departments, designations, attendances</td>
+        </tr>
+        <tr>
+          <td>Expense</td>
+          <td>expenses, expense_heads, expense_details, currency_symbols, countries</td>
+        </tr>
+        <tr>
+          <td>System</td>
+          <td>menus, roles, privileges, basic_infos, basic_info_translations</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <h2>👤 Author</h2>
+    <p>
+      <strong>Nowab Shorif Noman</strong><br />
+      📧 <a href="mailto:nsanoman@gmail.com">nsanoman@gmail.com</a><br />
+      🔗 <a href="https://www.linkedin.com/in/nowab-shorif/" target="_blank">LinkedIn</a> |
+      💻 <a href="https://github.com/ns-noman" target="_blank">GitHub</a>
+    </p>
+
+    <hr />
+
+    <h2>📄 License</h2>
+    <p>This project is open-source and licensed under the <strong>MIT License</strong>.</p>
+  </div>
